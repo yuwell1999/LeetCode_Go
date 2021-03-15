@@ -68,4 +68,7 @@ func main() {
 	if v2, ok := mapTemp["小王"]; ok {
 		fmt.Println(v2)
 	}
+
+	fmt.Println(len(mapInit))
+	fmt.Println(len(mapTemp) + len(mapInit) + len(scoreMap))
 }

@@ -23,6 +23,11 @@ func (p person) Method() {
 	fmt.Println("person结构体的Method方法被调用！" + " " + p.name + "所在的城市为" + p.city)
 }
 
+// 指针类型接收者
+func (p *person) setAge(age int) {
+	p.age = age
+}
+
 func main() {
 	type MyInt string
 	fmt.Println(len(MyInt(111111))) // 输出为4
@@ -73,6 +78,27 @@ func main() {
 	fmt.Printf("%#v\n", user)
 
 	p6 := newPersonConstructor("White", "San Fransisco", 31)
+	p6.setAge(30)
 	fmt.Println("p6", p6) // p6 &{White San Fransisco 31}
 	p6.Method()
+
+	personInfo := PersonInfo{
+		Name: "小红",
+		City: "Changsha",
+		Address: Address{
+			road: "Wuyi Road",
+		},
+	}
+	fmt.Println("personInfo", personInfo)
+}
+
+// 嵌套结构体
+type Address struct {
+	road string
+}
+
+type PersonInfo struct {
+	Address Address
+	Name    string
+	City    string
 }

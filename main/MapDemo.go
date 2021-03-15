@@ -59,4 +59,13 @@ func main() {
 	v1, ok := mapTemp["小明"]
 	fmt.Println(v1, ok)
 
+	//v2, ok := mapTemp["小王"]
+	//if ok{
+	//	fmt.Println(v2)
+	//}
+
+	// 相当于
+	if v2, ok := mapTemp["小王"]; ok {
+		fmt.Println(v2)
+	}
 }

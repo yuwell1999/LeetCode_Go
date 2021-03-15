@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5548059e-16d4-4ddd-b77d-9924c253d843" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/GoLearning/StructDemo.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/GoLearning/StructDemo.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

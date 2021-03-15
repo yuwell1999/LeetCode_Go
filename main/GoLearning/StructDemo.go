@@ -19,6 +19,10 @@ func newPersonConstructor(name, city string, age int) *person {
 	}
 }
 
+func (p person) Method() {
+	fmt.Println("person结构体的Method方法被调用！" + " " + p.name + "所在的城市为" + p.city)
+}
+
 func main() {
 	type MyInt string
 	fmt.Println(len(MyInt(111111))) // 输出为4
@@ -70,4 +74,5 @@ func main() {
 
 	p6 := newPersonConstructor("White", "San Fransisco", 31)
 	fmt.Println("p6", p6) // p6 &{White San Fransisco 31}
+	p6.Method()
 }

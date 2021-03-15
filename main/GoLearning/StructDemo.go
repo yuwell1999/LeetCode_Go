@@ -2,17 +2,26 @@ package main
 
 import "fmt"
 
+type person struct { // 同一个包内名称不能重复
+	//name string
+	//age  int8
+	//city string
+	name, city string
+	age        int
+}
+
+// 构造函数
+func newPersonConstructor(name, city string, age int) *person {
+	return &person{
+		name: name,
+		city: city,
+		age:  age,
+	}
+}
+
 func main() {
 	type MyInt string
 	fmt.Println(len(MyInt(111111))) // 输出为4
-
-	type person struct { // 同一个包内名称不能重复
-		//name string
-		//age  int8
-		//city string
-		name, city string
-		age        int
-	}
 
 	// 两种实例化方法
 	var person1 person
@@ -27,6 +36,17 @@ func main() {
 		age:  36,
 	}
 	fmt.Println("p4", p4)
+
+	// 不写键，直接写值
+	// 必须初始化所有字段，且顺序与结构体中声明一致
+	// 不能和键值初始化方式混用
+
+	p5 := person{
+		"prof",
+		"北京",
+		35,
+	}
+	fmt.Println("p5", p5)
 
 	var p2 = new(person) // p2是一个结构体指针
 	p2.age = 30
@@ -47,4 +67,7 @@ func main() {
 	}
 	user.name = "Rose"
 	fmt.Printf("%#v\n", user)
+
+	p6 := newPersonConstructor("White", "San Fransisco", 31)
+	fmt.Println("p6", p6) // p6 &{White San Fransisco 31}
 }

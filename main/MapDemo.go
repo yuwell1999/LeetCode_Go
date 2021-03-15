@@ -51,6 +51,7 @@ func main() {
 		"小红": "广东",
 	}
 	_ = mapInit
+
 	mapTemp := make(map[string]string, 10)
 	mapTemp["小明"] = "北京"
 	mapTemp["小王"] = "河北"

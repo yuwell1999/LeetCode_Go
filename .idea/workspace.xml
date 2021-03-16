@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5548059e-16d4-4ddd-b77d-9924c253d843" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/GoLearning/Functions/Definition.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/GoLearning/Functions/Parameters.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/GoLearning/Functions/Return.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/GoLearning/Functions/Parameters.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/GoLearning/Functions/Parameters.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,15 @@
       <recent name="C:\Users\YuYue\GolandProjects\LeetCode_Go\main\GoLearning" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build Parameters.go">
+  <component name="RunManager" selected="Go Build.go build Return.go">
+    <configuration name="go build Definition.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode_Go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main/GoLearning/Functions/Definition.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build For.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetCode_Go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -81,29 +89,21 @@
       <filePath value="$PROJECT_DIR$/main/GoLearning/Flows/Range.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Select.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Return.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetCode_Go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main/GoLearning/Flows/Select.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build Switch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode_Go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main/GoLearning/Flows/Switch.go" />
+      <filePath value="$PROJECT_DIR$/main/GoLearning/Functions/Return.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build Return.go" />
         <item itemvalue="Go Build.go build Parameters.go" />
+        <item itemvalue="Go Build.go build Definition.go" />
         <item itemvalue="Go Build.go build Range.go" />
         <item itemvalue="Go Build.go build For.go" />
-        <item itemvalue="Go Build.go build Select.go" />
-        <item itemvalue="Go Build.go build Switch.go" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +118,8 @@
     <MESSAGE value="20210315 StructDemo.go" />
     <MESSAGE value="20210316 Switch.go" />
     <MESSAGE value="20210316 For-loop.go" />
-    <option name="LAST_COMMIT_MESSAGE" value="20210316 For-loop.go" />
+    <MESSAGE value="20210316 Functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="20210316 Functions" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

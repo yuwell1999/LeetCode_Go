@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5548059e-16d4-4ddd-b77d-9924c253d843" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/GoLearning/Flows/Switch.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/GoLearning/Flows/If.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/GoLearning/Flows/If.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/GoLearning/Flows/Switch.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/GoLearning/Flows/Switch.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,8 @@
     <MESSAGE value="20210315" />
     <MESSAGE value="20210315 MapDemo.go" />
     <MESSAGE value="20210315 StructDemo.go" />
-    <option name="LAST_COMMIT_MESSAGE" value="20210315 StructDemo.go" />
+    <MESSAGE value="20210316 Switch.go" />
+    <option name="LAST_COMMIT_MESSAGE" value="20210316 Switch.go" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

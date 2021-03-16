@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5548059e-16d4-4ddd-b77d-9924c253d843" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/GoLearning/Flows/For.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/GoLearning/Flows/Range.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
       <recent name="C:\Users\YuYue\GolandProjects\LeetCode_Go\main\GoLearning" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build For.go">
+  <component name="RunManager" selected="Go Build.go build Range.go">
     <configuration name="go build For.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetCode_Go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -72,12 +72,12 @@
       <filePath value="$PROJECT_DIR$/main/GoLearning/Flows/If.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build MapDemo.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Range.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetCode_Go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main/GoLearning/MapDemo.go" />
+      <filePath value="$PROJECT_DIR$/main/GoLearning/Flows/Range.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build Select.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -98,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build Range.go" />
         <item itemvalue="Go Build.go build For.go" />
         <item itemvalue="Go Build.go build Select.go" />
         <item itemvalue="Go Build.go build Switch.go" />
         <item itemvalue="Go Build.go build If.go" />
-        <item itemvalue="Go Build.go build MapDemo.go (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +116,8 @@
     <MESSAGE value="20210315 MapDemo.go" />
     <MESSAGE value="20210315 StructDemo.go" />
     <MESSAGE value="20210316 Switch.go" />
-    <option name="LAST_COMMIT_MESSAGE" value="20210316 Switch.go" />
+    <MESSAGE value="20210316 For-loop.go" />
+    <option name="LAST_COMMIT_MESSAGE" value="20210316 For-loop.go" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

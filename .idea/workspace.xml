@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5548059e-16d4-4ddd-b77d-9924c253d843" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/GoLearning/Network/Http/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/GoLearning/Network/Http/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/GoLearning/Network/UDP/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/GoLearning/Network/UDP/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/Medium/34 Find First and Last Position of Element in Sorted Array.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +120,8 @@
     <MESSAGE value="20210316 Functions" />
     <MESSAGE value="20210316 Interface" />
     <MESSAGE value="20210316 tcp" />
-    <option name="LAST_COMMIT_MESSAGE" value="20210316 tcp" />
+    <MESSAGE value="20210316 http" />
+    <option name="LAST_COMMIT_MESSAGE" value="20210316 http" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

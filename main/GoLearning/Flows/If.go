@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	var a = 10
+	//var a = 10
+	a := 10
 	if a < 20 {
 		fmt.Println("a小于20")
 	} else {

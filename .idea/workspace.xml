@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5548059e-16d4-4ddd-b77d-9924c253d843" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/GoLearning/Flows/If.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/GoLearning/Flows/Switch.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/GoLearning/Flows/If.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/GoLearning/Flows/If.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
       <recent name="C:\Users\YuYue\GolandProjects\LeetCode_Go\main\GoLearning" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build If.go">
+  <component name="RunManager" selected="Go Build.go build Switch.go">
     <configuration name="go build If.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="LeetCode_Go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -72,20 +73,20 @@
       <filePath value="$PROJECT_DIR$/main/GoLearning/MapDemo.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build StructDemo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode_Go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main/GoLearning/StructDemo.go" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build StructSerialize.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetCode_Go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/main/GoLearning/StructSerialize.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build Switch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode_Go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main/GoLearning/Flows/Switch.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build demo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -96,21 +97,13 @@
       <filePath value="$PROJECT_DIR$/main/GoLearning/demo.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode_Go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Easy/test.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build Switch.go" />
         <item itemvalue="Go Build.go build If.go" />
         <item itemvalue="Go Build.go build MapDemo.go (1)" />
         <item itemvalue="Go Build.go build demo.go" />
         <item itemvalue="Go Build.go build StructSerialize.go" />
-        <item itemvalue="Go Build.go build StructDemo.go" />
       </list>
     </recent_temporary>
   </component>
